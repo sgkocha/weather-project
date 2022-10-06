@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: lightcyan;
+}
+.header{
+  background: purple;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+}
+.weather-data{
+  width: 500px;
+  margin: 20px auto;
+}
+.weather-data-item {
+  background: lightgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.weather-data-item span{
+  text-transform: lowercase;
+  font-size: 14px;
+}
+.clouds{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clouds img{
+  margin-left: 15px;
+}
+
